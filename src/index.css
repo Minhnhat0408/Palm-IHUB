@@ -2,128 +2,132 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html,
+body,
+:root {
+  scroll-behavior: smooth;
+
+}
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --gradient: #FF7249;
+    --background: 0 0% 95%;
+    --foreground: 243 10% 0.52%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --muted: 243 10% 91.3%;
+    --muted-foreground: 243 5% 41.3%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --popover: 243 10% 91.3%;
+    --popover-foreground: 243 10% 0.65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --card: 243 10% 91.3%;
+    --card-foreground: 243 10% 0.65%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --border: 243 15% 89.52%;
+    --input: 243 15% 89.52%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --primary: 297 38% 67%;
+    --primary-foreground: 243 2% 91.3%;
+
+    --secondary: 272 52% 22%;
+    --secondary-foreground: 243 7% 11.3%;
+
+    --accent: 243 5% 95.65%;
+    --accent-foreground: 243 7% 11.3%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 243 100% 13%;
 
     --radius: 0.5rem;
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-  }
 }
 
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 4px;
+  height: 6px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: hsl(var(--muted-foreground));
 }
 
-a:hover {
-  color: #535bf2;
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: var(--bg-dark-theme);
+} */
+
+.bg-header {
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.35));
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  /* box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.37); */
 }
 
-body {
+.text-gradient {
+  background: linear-gradient(90deg, #C88ACB, #FF8A00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+
+
+.bg-glass {
+  background: linear-gradient(0deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.button-gradient {
+  background: linear-gradient(0, #FF8A00, #FF73F4);
+
+
 }
 
-button:hover {
-  border-color: #646cff;
+@keyframes move-left-to-right {
+  0% {
+    transform: translateX(-30%);
+  }
+
+  50% {
+    transform: translateX(30%);
+  }
+
+  100% {
+    transform: translateX(-30%);
+  }
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.move-left-to-right {
+  display: inline-block;
+  animation: move-left-to-right 10s linear infinite;
 }
-
