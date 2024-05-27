@@ -4,7 +4,7 @@ export default function Feature() {
   return (
     <section className="py-20 px-20 relative">
       <div className="flex flex-col items-center gap-y-10">
-        <h2 className="text-8xl font-bold text-center max-w-[800px]">
+        <h2 className="2xl:text-8xl  text-7xl font-bold text-center max-w-[800px]">
           Giờ đây, bàn tay bạn chính là{" "}
           <LetterAppear className="text-secondary  inline-flex">
             chìa khoá
