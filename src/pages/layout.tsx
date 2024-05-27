@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Header from "../components/header";
+import Header from "../components/header/header";
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
   children?: React.ReactNode;
 }) {
   return (
-    <div className="h-[3000px] bg-background ">
+    <div className=" bg-background ">
       <Header />
       <Outlet />
       {children}

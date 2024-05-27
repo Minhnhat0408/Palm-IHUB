@@ -2,7 +2,7 @@ import ProgressIndicator from "./progress-indicator";
 
 import NavBar from "./navbar";
 // import MobileSidebar from "../mobile-sidebar";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { useState } from "react";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -34,7 +34,7 @@ export default function Header() {
         }}
         animate={!open ? "hidden" : "visible"}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="bg-header z-0 flex h-[60px] sm:rounded-2xl items-center justify-between px-4 font-[500] sm:px-8 md:h-[70px] sm:m-5 sm:my-2"
+        className="bg-header z-0 flex h-[60px] sm:rounded-3xl items-center justify-between px-4 font-[500] sm:px-8 md:h-[70px] sm:m-5 sm:my-2"
       >
         <svg
           className="w-[35px] h-[55px] md:w-[40px] md:h-[60px] "

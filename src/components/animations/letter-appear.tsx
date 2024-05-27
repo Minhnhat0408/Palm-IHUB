@@ -16,11 +16,9 @@ export default function LetterAppear({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div
+    <span
       ref={ref}
-      className={cn(
-        " relative  flex h-fit justify-center text-3xl font-bold md:!text-5xl xl:!text-6xl  ssm:text-4xl "
-      )}
+      className={cn(" relative  flex h-fit justify-center  ", className)}
     >
       {children.split(" ").map((word, index) => {
         let time =
@@ -45,7 +43,6 @@ export default function LetterAppear({
                     "translate-x-[50px] scale-150 py-2 opacity-0 duration-500  ",
                     isInView &&
                       " opacity-1 super flex  translate-x-0 scale-100",
-                    className
                   )}
                   style={{ transitionDelay: time + "ms" }}
                   key={ind}
@@ -57,6 +54,6 @@ export default function LetterAppear({
           </span>
         );
       })}
-    </div>
+    </span>
   );
 }

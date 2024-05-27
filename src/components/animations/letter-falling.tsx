@@ -37,7 +37,7 @@ export default function LetterFalling({
       {letters.map((char, index) => {
         // Calculate delay based on distance from the middle
         const distanceFromMiddle = Math.abs(index - middleIndex);
-        const delay = distanceFromMiddle * 100 + initialDelay; // Adjust this multiplier as needed
+        const delay = distanceFromMiddle * 200 + initialDelay; // Adjust this multiplier as needed
 
         return (
           <span
