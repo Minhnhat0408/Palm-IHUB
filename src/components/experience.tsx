@@ -25,6 +25,7 @@ export default function Experience() {
                     <div className="w-full relative pt-80  ">
                         <img src={card} alt="palm" className="absolute floating-box-animation top-20 left-1/2 -translate-x-1/2"/>
                         <img src={card2} alt="palm" className="absolute floating-box-animation-delay  -top-52 left-1/2 -translate-x-1/2"/>
+                        <img src={'Key-1.webp'} alt="palm" className="absolute w-[400px] floating-box-animation-y  top-0 left-1/2"/>
 
                         <img src={'hand-exp.webp'} alt="palm"className="w-3/4" />
 

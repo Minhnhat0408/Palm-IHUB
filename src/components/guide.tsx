@@ -1,6 +1,6 @@
-// import LetterAppear from "./animations/letter-appear";
 
-import { useInView, motion, AnimatePresence } from "framer-motion";
+
+import { useInView, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 export default function Guide() {

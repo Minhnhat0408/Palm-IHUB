@@ -1,5 +1,7 @@
 import About from "@/components/about";
+import Advantages from "@/components/advantage";
 import Experience from "@/components/experience";
+import FAQ from "@/components/faq";
 import Feature from "@/components/feature";
 import Guide from "@/components/guide";
 import Hero from "@/components/hero";
@@ -10,8 +12,10 @@ export default function HomePage() {
       <Hero />
       <About />
       <Feature />
-      <Guide/>
-      <Experience/>
+      <Guide />
+      <Experience />
+      <Advantages />
+      <FAQ />
     </main>
   );
 }

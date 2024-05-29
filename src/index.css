@@ -159,3 +159,22 @@ html *::-webkit-scrollbar-track {
     transform: translate(-50%,0);
   }
 }
+
+
+.floating-box-animation-y {
+
+  animation: floatAnimationY 3s infinite;
+  animation-delay: 1s;
+
+}
+@keyframes floatAnimationY {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

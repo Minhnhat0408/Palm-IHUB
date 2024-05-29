@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/header/header";
+import Footer from "@/components/footer";
 
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
       <Header />
       <Outlet />
       {children}
+      <Footer />
     </div>
   );
 }
