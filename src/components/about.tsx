@@ -3,7 +3,7 @@ import Reveal from "./animations/reveal";
 export default function About() {
   return (
     <section className="py-20 px-20 relative">
-      <div className="absolute -top-20 scale-125">
+      <div className="absolute -top-20  left-0 right-0">
         <img src="/Gradient 2.webp" alt="palm" />
       </div>
       <div className=" grid grid-cols-2 ">

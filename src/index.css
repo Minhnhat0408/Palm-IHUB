@@ -97,6 +97,10 @@ html *::-webkit-scrollbar-track {
 }
 
 
+.back-gradient{
+  background: linear-gradient(90deg, #FF73F4, #FF8A00);
+}
+
 
 .bg-glass {
   background: linear-gradient(0deg,
@@ -130,4 +134,28 @@ html *::-webkit-scrollbar-track {
 .move-left-to-right {
   display: inline-block;
   animation: move-left-to-right 10s linear infinite;
+}
+
+
+ 
+.floating-box-animation {
+
+  animation: floatAnimation 3s infinite;
+}
+
+.floating-box-animation-delay {
+
+  animation: floatAnimation 3s infinite;
+  animation-delay: 1.5s;
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translate(-50%,0);
+  }
+  50% {
+    transform: translate(-50%,-30px);
+  }
+  100% {
+    transform: translate(-50%,0);
+  }
 }

@@ -56,7 +56,6 @@ function Reveal({
       variants.hidden = { ...variants.hidden, scale: scale } as Animate;
       variants.visible = { ...variants.visible, scale: 1 } as Animate;
     }
-    console.log(variants)
     return variants;
   }
   function getTransition() {
