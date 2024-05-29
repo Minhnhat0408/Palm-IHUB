@@ -3,7 +3,7 @@ import SliderMultiple from "./animations/slider-multiple";
 import KeenSliderChildImage from "./keen-slider-child-image";
 import { useOnClickOutside } from "@/hooks/useOnClickOutside";
 
-export default function Customer() {
+export default function Contact() {
   const [openImage, setOpenImage] = useState<string | null>();
   const ref = useRef(null);
 
@@ -52,15 +52,15 @@ export default function Customer() {
               src="UBNDTPHN.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
-              title="UBND TP Hà Nội"
-              description="Thanh Xuân, Hà Nội"
+                title="UBND TP Hà Nội"
+                description="Thanh Xuân, Hà Nội"
             />
             <KeenSliderChildImage
               src="SouthAsiaBank.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
-              title="Ngân hàng Nam Á"
-              description="Hà Nội"
+                title="Ngân hàng Nam Á"
+                description="Hà Nội"
             />
           </SliderMultiple>
         </div>
