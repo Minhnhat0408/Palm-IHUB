@@ -5,7 +5,7 @@ import NavBar from "./navbar";
 import { Button } from "../ui/button";
 import { useState } from "react";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import MobileSidebar from "./mobile-sidebar";
 import { cn } from "@/lib/utils";
 
@@ -51,30 +51,28 @@ export default function Header() {
         <NavBar />
 
         <div className="flex gap-x-4">
-          <Button
-            variant={"default"}
-            className={cn(
-              " rounded-xl font-bold capitalize   text-white  text-lg  px-6 tracking-widest duration-700",
-              location.pathname.includes("/contact") ? "text-gradient " : ""
-            )}
-            onClick={() => {
-              navigate("/contact");
-            }}
-          >
-            {/* <span className="relative mr-3 flex h-2 w-2">
-              <span
-                className={cn(
-                  "absolute -left-[2px] -top-[2px] h-3 w-3 animate-ping rounded-full bg-gradient opacity-75"
-                )}
-              ></span>
-              <span
-                className={cn(
-                  "relative inline-flex h-2 w-2 rounded-full bg-gradient"
-                )}
-              ></span>
-            </span> */}
-            Liên hệ
-          </Button>
+          <a href={"#contact"}>
+            <Button
+              variant={"default"}
+              className={cn(
+                " rounded-xl font-bold capitalize   text-white  text-lg  px-6 tracking-widest duration-700"
+              )}
+            >
+              {/* <span className="relative mr-3 flex h-2 w-2">
+                <span
+                  className={cn(
+                    "absolute -left-[2px] -top-[2px] h-3 w-3 animate-ping rounded-full bg-gradient opacity-75"
+                  )}
+                ></span>
+                <span
+                  className={cn(
+                    "relative inline-flex h-2 w-2 rounded-full bg-gradient"
+                  )}
+                ></span>
+              </span> */}
+              Liên hệ
+            </Button>
+          </a>
           <MobileSidebar />
         </div>
       </motion.div>

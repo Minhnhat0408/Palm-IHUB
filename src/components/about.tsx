@@ -2,7 +2,7 @@ import Reveal from "./animations/reveal";
 
 export default function About() {
   return (
-    <section className="py-20 px-20 relative">
+    <section className="py-20 px-20 relative" id='tech'>
       <div className="absolute -top-20  left-0 right-0">
         <img src="/Gradient 2.webp" alt="palm" />
       </div>

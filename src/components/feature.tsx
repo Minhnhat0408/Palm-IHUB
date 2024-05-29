@@ -2,7 +2,7 @@ import LetterAppear from "./animations/letter-appear";
 
 export default function Feature() {
   return (
-    <section className="py-20 px-20 relative">
+    <section className="py-20 px-20 relative" id="feature">
       <div className="flex flex-col items-center gap-y-10">
         <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[800px]">
           Giờ đây, bàn tay bạn chính là{" "}
@@ -10,7 +10,9 @@ export default function Feature() {
             chìa khoá
           </LetterAppear>
         </h2>
-        <h3 className="font-bold text-4xl text-primary ">Với một cái vãy tay, bạn có thể</h3>
+        <h3 className="font-bold text-4xl text-primary ">
+          Với một cái vãy tay, bạn có thể
+        </h3>
         <div className="grid grid-cols-4 gap-10 mt-10 ">
           <div className="hover:scale-110 hover:shadow-2xl hover:text-secondary cursor-pointer p-5 rounded-xl duration-500">
             <img src="/gym.webp" alt="gym" className=" rounded-xl" />

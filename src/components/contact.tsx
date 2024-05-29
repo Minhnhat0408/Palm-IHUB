@@ -1,79 +1,37 @@
-import { useRef, useState } from "react";
-import SliderMultiple from "./animations/slider-multiple";
-import KeenSliderChildImage from "./keen-slider-child-image";
-import { useOnClickOutside } from "@/hooks/useOnClickOutside";
+import LetterAppear from "./animations/letter-appear";
+import FormRegister from "./form-register";
+
+import hand_contact from "/hand contact.svg";
 
 export default function Contact() {
-  const [openImage, setOpenImage] = useState<string | null>();
-  const ref = useRef(null);
-
-  useOnClickOutside(ref, () => {
-    setOpenImage(null);
-  });
   return (
     <section className="py-20 px-20 relative">
-      <div className="flex flex-col  gap-y-10">
-        <h2 className="2xl:text-7xl  text-6xl ml-40 font-bold w-1/2">
-          Các dự án tiêu biểu đã triển khai
+      <div className="flex flex-col  gap-y-10 items-center">
+        <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[800px]">
+          <LetterAppear className="text-secondary   inline-flex">
+            An toàn hơn. Tiện lợi hơn.
+          </LetterAppear>{" "}
+          Tại sao bạn không thử?
         </h2>
-
-        <div className="flex w-full justify-center mt-10 ">
-          <SliderMultiple className="  ">
-            <KeenSliderChildImage
-              src="CMC duy tan.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-              title="Tòa nhà CMC Tower"
-              description="11 P. Duy Tân, Dịch Vọng Hậu"
-            />
-
-            <KeenSliderChildImage
-              src="D12 giang vo.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-              title="D12 Showtime Giảng Võ"
-              description="D12 Giảng Võ, Ba Đình"
-            />
-            <KeenSliderChildImage
-              src="Delco.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-              title="Công Ty Đầu Tư Xây Dựng Delco"
-              description="tòa Viwaseen, 48 P. Tố Hữu, Trung Văn"
-            />
-            <KeenSliderChildImage
-              src="UBNDTX.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-              title="UBND Quận Thanh Xuân"
-              description="Quận Thanh Xuân, Hà Nội"
-            />
-            <KeenSliderChildImage
-              src="UBNDTPHN.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-                title="UBND TP Hà Nội"
-                description="Thanh Xuân, Hà Nội"
-            />
-            <KeenSliderChildImage
-              src="SouthAsiaBank.webp"
-              setImage={setOpenImage}
-              className="rounded-xl overflow-hidden"
-                title="Ngân hàng Nam Á"
-                description="Hà Nội"
-            />
-          </SliderMultiple>
+        <div className="back-gradient text-4xl  text-white relative w-full rounded-2xl flex text-center py-10 px-40 items-center justify-center mt-10">
+          Miễn phí toàn bộ thiết bị và thi công khi lắp đặt Giải pháp kiểm soát
+          an ninh bằng bàn tay cho các chung cư tại Hà Nội trong tháng 06/2024.
         </div>
-        {openImage && (
-          <div className="bg-black/60 z-[1000] fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center">
-            <img
-              src={openImage}
-              alt="openImage"
-              ref={ref}
-              className="h-[80vh] object-cover"
-            />
+        <div className="grid grid-cols-2 w-full gap-x-20">
+          <div className="w-full flex items-center justify-center">
+            <img src={hand_contact} alt="contact-1  " className="h-[80vh]" />
+            <h2 className="absolute text-8xl font-bold text-gradient">
+              Palm Now
+            </h2>
           </div>
-        )}
+
+          <div className="p-20  bg-white rounded-2xl " id={"contact"}>
+            <h2 className="text-4xl text-secondary font-bold">
+              Liên hệ với chúng tôi
+            </h2>
+            <FormRegister />
+          </div>
+        </div>
       </div>
     </section>
   );

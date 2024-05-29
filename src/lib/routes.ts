@@ -7,12 +7,12 @@ export const routes = [
       label: 'Công nghệ',
       // icon: VideoIcon,
    
-      href: '/services',
+      href: '#tech',
     },
     {
       label: 'Tính năng',
       // icon: ImageIcon,
-      href: '/livestream',
+      href: '#feature',
     },
 
     // {

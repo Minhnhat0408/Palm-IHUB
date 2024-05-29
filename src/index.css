@@ -3,11 +3,8 @@
 @tailwind utilities;
 
 
-html,
-body,
-:root {
+html {
   scroll-behavior: smooth;
-
 }
 
 @layer base {
@@ -33,7 +30,7 @@ body,
     --border: 243 15% 89.52%;
     --input: 243 15% 89.52%;
 
-    --primary: 305 38% 67%;
+    --primary: 305 100% 73%;
     --primary-foreground: 243 2% 91.3%;
 
     --secondary: 14 100% 64%;
@@ -181,4 +178,8 @@ html *::-webkit-scrollbar-track {
     rotate: 0;
 
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

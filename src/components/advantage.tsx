@@ -13,7 +13,7 @@ export default function Advantages() {
         </h2>
         <div className="relative w-full mt-20 space-y-10">
           <div className="flex gap-x-10">
-            <div className="bg-white rounded-2xl  p-10 space-y-6 2xl:px-40 px-20 ">
+            <div className="bg-white rounded-2xl flex-1  p-10 space-y-6  ">
               <h3 className="text-gradient font-bold text-4xl">
                 An ninh tuyệt đối
               </h3>
@@ -28,7 +28,7 @@ export default function Advantages() {
                 />
               </div>
             </div>
-            <div className="bg-white rounded-2xl  p-10 space-y-6 2xl:px-40 px-20 ">
+            <div className="bg-white rounded-2xl flex-1  p-10 space-y-6 ">
               <h3 className="text-gradient font-bold text-4xl">
                 Tiết kiệm chi phí
               </h3>
@@ -45,7 +45,7 @@ export default function Advantages() {
             </div>
           </div>
           <div className="flex gap-x-10">
-            <div className="bg-white rounded-2xl  p-10 space-y-6 2xl:px-40 px-20 ">
+            <div className="bg-white flex-1 rounded-2xl  p-10 space-y-6  ">
               <h3 className="text-gradient font-bold text-4xl">
                 Phân quyền linh hoạt
               </h3>
@@ -60,7 +60,7 @@ export default function Advantages() {
                 />
               </div>
             </div>
-            <div className="bg-white rounded-2xl  p-10 space-y-6 2xl:px-40 px-20 ">
+            <div className="bg-white rounded-2xl  p-10 space-y-6 flex-1 ">
               <h3 className="text-gradient font-bold text-4xl">
                 Dịch vụ tốt hơn
               </h3>

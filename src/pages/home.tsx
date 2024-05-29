@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Advantages from "@/components/advantage";
+import Contact from "@/components/contact";
 import Customer from "@/components/customer";
 import Experience from "@/components/experience";
 import FAQ from "@/components/faq";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Experience />
       <Advantages />
       <Customer/>
+      <Contact />
       <FAQ />
     </main>
   );

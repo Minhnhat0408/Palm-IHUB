@@ -16,15 +16,15 @@ function NavBar() {
               " duration-1000 text-lg text-white/50  hover:text-white"
             )}
           >
-            <Link
-              to={`/${route.href}`}
+            <a
+              href={`${route.href}`}
               className={
                 "px-5 py-2 font-bold " +
                 (pathname.includes(route.href) ? "text-white" : "")
               }
             >
               {route.label}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
