@@ -1,5 +1,15 @@
+import { useRef, useState } from "react";
+import SliderMultiple from "./animations/slider-multiple";
+import KeenSliderChildImage from "./keen-slider-child-image";
+import { useOnClickOutside } from "@/hooks/useOnClickOutside";
 
 export default function Customer() {
+  const [openImage, setOpenImage] = useState<string | null>();
+  const ref = useRef(null);
+
+  useOnClickOutside(ref, () => {
+    setOpenImage(null);
+  });
   return (
     <section className="py-20 px-20 relative">
       <div className="flex flex-col  gap-y-10">
@@ -7,15 +17,51 @@ export default function Customer() {
           Các dự án tiêu biểu đã triển khai
         </h2>
 
-        {/* <div className="flex gap-4 w-full">
-        <button className="p-0 m-0 w-fit h-fit border-none">
-            <div className="relative transition-all duration-300 ease-in-out h-72 2xl:h-[19.1875rem] rounded-[2.3rem] cursor-pointer w-[24.4rem]">
-                <div className="relative w-full h-full">
-                    <img alt="Hub Forum" fetchpriority="high" decoding="async" data-nimg="fill" className="object-cover rounded-[2.3rem]" sizes="80vw" srcset="/_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=640&amp;q=100 640w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=750&amp;q=100 750w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=828&amp;q=100 828w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=1080&amp;q=100 1080w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=1200&amp;q=100 1200w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=1920&amp;q=100 1920w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=2048&amp;q=100 2048w, /_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=3840&amp;q=100 3840w" src="/_next/image?url=%2Fimages%2Fnetwork%2Ffeature_2.webp&amp;w=3840&amp;q=100" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"><div className="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-[2.3rem] opacity-70"></div></div><div className="rounded-3xl p-8 absolute bottom-0 left-0 flex flex-col items-start justify-end gap-2 z-10 overflow-hidden w-48"><p className="text-white text-xl font-bold fade-in">Hub Forum</p></div></div></button>
-        </div> */}
-        <div className="">
+        <div className="flex w-full justify-center mt-10 ">
+          <SliderMultiple className="  ">
+            <KeenSliderChildImage
+              src="CMC duy tan.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
 
+            <KeenSliderChildImage
+              src="D12 giang vo.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
+            <KeenSliderChildImage
+              src="Delco.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
+            <KeenSliderChildImage
+              src="UBNDTX.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
+            <KeenSliderChildImage
+              src="UBNDTPHN.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
+            <KeenSliderChildImage
+              src="SouthAsiaBank.webp"
+              setImage={setOpenImage}
+              className="rounded-xl overflow-hidden"
+            />
+          </SliderMultiple>
         </div>
+        {openImage && (
+          <div className="bg-black/60 z-[1000] fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+            <img
+              src={openImage}
+              alt="openImage"
+              ref={ref}
+              className="h-[80vh] object-cover"
+            />
+          </div>
+        )}
       </div>
     </section>
   );
