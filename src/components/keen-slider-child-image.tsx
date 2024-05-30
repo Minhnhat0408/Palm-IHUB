@@ -5,13 +5,13 @@ export default function KeenSliderChildImage({
   className,
   setImage,
   title,
-  description,
+
 }: {
   src: string;
   className?: string;
   setImage: (src: string) => void;
   title: string;
-  description: string;
+
 }) {
   return (
     <div

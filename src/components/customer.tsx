@@ -24,7 +24,6 @@ export default function Customer() {
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="Tòa nhà CMC Tower"
-              description="11 P. Duy Tân, Dịch Vọng Hậu"
             />
 
             <KeenSliderChildImage
@@ -32,35 +31,30 @@ export default function Customer() {
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="D12 Showtime Giảng Võ"
-              description="D12 Giảng Võ, Ba Đình"
             />
             <KeenSliderChildImage
               src="Delco.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="Công Ty Đầu Tư Xây Dựng Delco"
-              description="tòa Viwaseen, 48 P. Tố Hữu, Trung Văn"
             />
             <KeenSliderChildImage
               src="UBNDTX.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="UBND Quận Thanh Xuân"
-              description="Quận Thanh Xuân, Hà Nội"
             />
             <KeenSliderChildImage
               src="UBNDTPHN.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="UBND TP Hà Nội"
-              description="Thanh Xuân, Hà Nội"
             />
             <KeenSliderChildImage
               src="SouthAsiaBank.webp"
               setImage={setOpenImage}
               className="rounded-xl overflow-hidden"
               title="Ngân hàng Nam Á"
-              description="Hà Nội"
             />
           </SliderMultiple>
         </div>

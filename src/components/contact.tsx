@@ -15,14 +15,14 @@ export default function Contact() {
           an ninh bằng bàn tay cho các chung cư tại Hà Nội trong tháng 06/2024.
         </div>
         <div className="grid grid-cols-2 w-full gap-x-20">
-          <div className="w-full flex items-center justify-center">
-            <img src={hand_contact} alt="contact-1  " className="h-[80vh]" />
+          <div className="w-full flex items-center h-[80vh] overflow-hidden justify-center">
+            <img src={hand_contact} alt="contact-1  " className=" opacity-70 h-[120vh]" />
             <h2 className="absolute text-8xl font-bold text-gradient">
               Palm Now
             </h2>
           </div>
 
-          <div className="p-20  bg-white rounded-2xl " id={"contact"}>
+          <div className="p-20 py-10  bg-white rounded-2xl " id={"contact"}>
             <h2 className="text-4xl text-secondary font-bold">
               Liên hệ với chúng tôi
             </h2>
