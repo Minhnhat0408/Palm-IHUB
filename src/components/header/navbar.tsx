@@ -1,6 +1,6 @@
 import { routes } from "@/lib/routes";
 import { cn } from "@/lib/utils";
-import { Link } from "react-router-dom";
+
 import { useLocation } from "react-router-dom";
 
 function NavBar() {

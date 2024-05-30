@@ -5,13 +5,12 @@ import NavBar from "./navbar";
 import { Button } from "../ui/button";
 import { useState } from "react";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
-import { Link, useNavigate } from "react-router-dom";
+
 import MobileSidebar from "./mobile-sidebar";
 import { cn } from "@/lib/utils";
 
 export default function Header() {
   const { scrollY } = useScroll();
-  const navigate = useNavigate();
   const [open, setOpen] = useState(true);
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
