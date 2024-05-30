@@ -9,14 +9,14 @@ export default function KeenSliderChildImage({
 }: {
   src: string;
   className?: string;
-  setImage: (src: string) => void;
+  setImage: (src: string | null) => void;
   title: string;
 
 }) {
   return (
     <div
       onClick={() => {
-        setImage(src);
+        setImage(null);
       }}
       className={cn(
         "keen-slider__slide group/item relative overflow-hidden justify-center cursor-pointer  ",
