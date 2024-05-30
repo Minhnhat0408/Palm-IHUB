@@ -1,6 +1,6 @@
 export default function Advantages() {
     return (
-        <section className="relative px-4 py-20 sm:px-20">
+        <section className="relative px-6 py-20 sm:px-20">
             <div className="flex flex-col  gap-y-10">
                 <h2 className=" text-center text-4xl font-bold   sm:text-5xl lg:text-6xl xl:ml-40 xl:w-2/3 xl:text-left 2xl:text-7xl">
                     Thay thế hoàn toàn <span className="text-gradient  inline-flex">thẻ từ</span> trong các tòa nhà với

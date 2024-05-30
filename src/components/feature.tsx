@@ -1,6 +1,6 @@
 export default function Feature() {
     return (
-        <section className="relative px-4 py-20 sm:px-20" id="feature">
+        <section className="relative px-6 py-20 sm:px-20" id="feature">
             <div className="flex flex-col items-center gap-y-5 md:gap-y-10">
                 <h2 className="max-w-[800px]  text-center text-4xl font-bold  sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     Giờ đây, bàn tay bạn chính là <span className="text-gradient ">chìa khoá</span>

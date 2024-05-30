@@ -28,7 +28,7 @@ export default function Guide() {
                 Cách thức hoạt động
             </h2>
             <div className="relative grid grid-cols-1 md:grid-cols-2 ">
-                <div className="sm:px-20 px-4 lg:ml-20 xl:px-32">
+                <div className="sm:px-20 px-6 lg:ml-20 xl:px-32">
                     <div className="flex sm:h-screen mb-10 flex-col justify-center gap-y-5 md:gap-y-10">
                         <h3 ref={ref1} className="text-3xl font-bold md:text-5xl">
                             Bước 1: Cài đặt

@@ -56,7 +56,7 @@ export default function SliderMultiple({
                     if (mouseOver) return;
                     timeout = setTimeout(() => {
                         slider.next();
-                    }, 2000);
+                    }, 1000);
                 }
 
                 slider.on('created', () => {

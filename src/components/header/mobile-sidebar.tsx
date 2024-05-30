@@ -27,7 +27,7 @@ function MobileSidebar() {
       <SheetTrigger className="justify-center px-2 lg:hidden ">
         <Menu />
       </SheetTrigger>
-      <SheetContent side={"right"} className="w-56 p-4 pt-3">
+      <SheetContent side={"right"} className="w-56 bg-glass p-4 pt-3">
         <Link
           to={"/"}
           onClick={() => {
@@ -36,7 +36,7 @@ function MobileSidebar() {
           }}
           className="cursor-pointer"
         >
-          <div className="flex gap-x-2">
+          <div className="flex gap-x-2 items-center">
             <svg
               className="w-[35px] h-[55px] md:w-[50px] md:h-[70px] "
               viewBox="0 0 676 863"
@@ -48,7 +48,7 @@ function MobileSidebar() {
                 fill="white"
               />
             </svg>
-            <span>Palm</span>
+            <span className="font-bold text-gradient text-3xl">Palm</span>
           </div>
         </Link>
         <div className="flex h-full w-full flex-col items-start justify-start gap-y-3  pt-6">
@@ -60,9 +60,8 @@ function MobileSidebar() {
                   to={navBar.href}
                   className={cn(
                     "group flex w-full cursor-pointer justify-start text-white/50  rounded-lg p-3 text-sm font-medium transition duration-500 hover:text-white",
-                    (navBar.href === "/" && navBar.href === pathName) ||
-                      (navBar.href !== "/" && pathName.startsWith(navBar.href))
-                      ? " text-super"
+                    pathName === navBar.href
+                      ? " text-white"
                       : ""
                   )}
                 >

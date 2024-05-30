@@ -1,8 +1,7 @@
-import card from '/Card 13.svg';
 
 export default function Experience() {
     return (
-        <section className="relative overflow-hidden px-4 py-20 sm:px-20">
+        <section className="relative overflow-hidden px-6 py-20 sm:px-20">
             <div className="flex flex-col items-center gap-y-4 lg:gap-y-10">
                 <h2 className="max-w-[800px] text-center  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     Một trải nghiệm{' '}
@@ -24,7 +23,7 @@ export default function Experience() {
                     </div>
                     <div className="relative w-full pt-60 sm:pt-80  ">
                         <img
-                            src={card}
+                            src={'Card 13.png'}
                             alt="palm"
                             className="floating-box-animation absolute left-1/2 top-32 w-[200px] -translate-x-1/2 sm:top-40 sm:w-[300px] lg:top-20 lg:w-[389px]"
                         />

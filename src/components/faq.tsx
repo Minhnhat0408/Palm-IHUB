@@ -2,7 +2,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 export default function FAQ() {
     return (
-        <section className="relative h-fit overflow-hidden px-4 py-20 sm:px-20 lg:px-40 xl:px-60 2xl:px-80">
+        <section className="relative h-fit overflow-hidden px-6 py-20 sm:px-20 lg:px-40 xl:px-60 2xl:px-80">
             <div className="flex flex-col sm:items-start items-center lg:gap-y-10 gap-y-4 ">
                 <div className="absolute -left-1/2 -top-1/2  block ">
                     <img src="/Gradient 2.webp" alt="palm" />

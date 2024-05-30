@@ -11,7 +11,7 @@ export default function Customer() {
         setOpenImage(null);
     });
     return (
-        <section className="relative sm:px-20 px-4 py-20">
+        <section className="relative sm:px-20 px-6 py-20">
             <div className="flex flex-col  gap-y-10">
                 <h2 className="text-4xl font-bold  text-center sm:text-5xl lg:text-6xl  xl:ml-40 xl:w-1/2 xl:text-left 2xl:text-7xl">
                     Các dự án tiêu biểu đã triển khai

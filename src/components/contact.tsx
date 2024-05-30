@@ -4,7 +4,7 @@ import hand_contact from '/hand contact.svg';
 
 export default function Contact() {
     return (
-        <section className="relative sm:px-20 px-4 py-20">
+        <section className="relative sm:px-20 px-6 py-20">
             <div className="flex flex-col  items-center gap-y-10">
                 <h2 className="max-w-[900px]  text-center text-4xl font-bold  sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     <span className="text-gradient ">An toàn hơn. Tiện lợi hơn.</span> Tại sao bạn không thử?
@@ -21,7 +21,7 @@ export default function Contact() {
                         </h2>
                     </div>
 
-                    <div className="rounded-2xl bg-white  p-8  sm:p-20 " id={'contact'}>
+                    <div className="rounded-2xl bg-white  p-8 px-6 sm:p-20 " id={'contact'}>
                         <h2 className="text-4xl font-bold text-secondary">Liên hệ với chúng tôi</h2>
                         <FormRegister />
                     </div>

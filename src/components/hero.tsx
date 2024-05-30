@@ -18,7 +18,7 @@ export default function Hero() {
             <LetterFalling
                 initialDelay={300}
                 hero
-                className="  z-10 md:text-9xl sm:text-8xl text-7xl font-bold leading-tight xl:text-[180px] 2xl:text-[12vw] "
+                className="  z-10 md:text-9xl sm:text-8xl text-[86px] font-bold leading-tight xl:text-[180px] 2xl:text-[12vw] "
             >
                 Palm ID
             </LetterFalling>
@@ -35,7 +35,7 @@ export default function Hero() {
                     hiddenY={-30}
                     duration={1}
                     delay={2.3}
-                    className="sm:text-2xl text-center font-bold xl:text-3xl 2xl:text-[2.3vw]   "
+                    className="sm:text-2xl text-center text-sm font-bold xl:text-3xl 2xl:text-[2.3vw]   "
                 >
                     Khám phá điều bí ẩn trong lòng bàn tay của bạn
                 </Reveal>
