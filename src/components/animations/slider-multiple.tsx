@@ -38,7 +38,9 @@ export default function SliderMultiple({
                 setCurrentSlide(slider.track.details.rel);
             },
             created() {
-                setLoaded(true);
+                if (window.innerWidth > 640) {
+                    setLoaded(true);
+                }
             },
             loop: true,
         },
@@ -56,6 +58,7 @@ export default function SliderMultiple({
                         slider.next();
                     }, 2000);
                 }
+
                 slider.on('created', () => {
                     slider.container.addEventListener('mouseover', () => {
                         mouseOver = true;
@@ -106,7 +109,7 @@ function Arrow(props: { disabled: boolean; left?: boolean; onClick: (e: any) => 
     return (
         <svg
             onClick={props.onClick}
-            className={`absolute top-1/2  h-10 w-10 -translate-y-[50%] cursor-pointer fill-black opacity-0 duration-500 group-hover:opacity-100 ${
+            className={`absolute  top-1/2  h-10 w-10 -translate-y-[50%] cursor-pointer fill-black opacity-0 duration-500 group-hover:opacity-100 ${
                 props.left ? ' -left-10' : ' -right-10'
             } ${disabeld}`}
             xmlns="http://www.w3.org/2000/svg"
