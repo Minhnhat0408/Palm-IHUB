@@ -1,4 +1,3 @@
-import LetterAppear from "./animations/letter-appear";
 
 export default function Feature() {
   return (
@@ -6,11 +5,11 @@ export default function Feature() {
       <div className="flex flex-col items-center gap-y-10">
         <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[800px]">
           Giờ đây, bàn tay bạn chính là{" "}
-          <LetterAppear className="text-secondary  inline-flex">
+          <span className="text-gradient ">
             chìa khoá
-          </LetterAppear>
+          </span>
         </h2>
-        <h3 className="font-bold text-4xl text-primary ">
+        <h3 className="font-semibold text-4xl ">
           Với một cái vãy tay, bạn có thể
         </h3>
         <div className="grid grid-cols-4 gap-10 mt-10 ">

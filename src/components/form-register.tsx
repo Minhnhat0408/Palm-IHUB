@@ -51,14 +51,14 @@ export default function FormRegister() {
           from_name: values.name,
           from_email: values.email,
           to_name: "Palm Now",
-          message: values.phone + " \nLời nhắn:" + values.message,
+          message: "Email: " + values.email + " \nSố điện thoại: " + values.phone + " \nLời nhắn: " + values.message,
         },
         {
           publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
         }
       ),
       {
-        loading: "Loading...",
+        loading: "Đang gửi...",
         success: () => {
           return `Cảm ơn bạn đã liên hệ với chúng tôi.`;
         },

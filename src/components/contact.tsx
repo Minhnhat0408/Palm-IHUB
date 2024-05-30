@@ -1,4 +1,3 @@
-import LetterAppear from "./animations/letter-appear";
 import FormRegister from "./form-register";
 
 import hand_contact from "/hand contact.svg";
@@ -7,11 +6,9 @@ export default function Contact() {
   return (
     <section className="py-20 px-20 relative">
       <div className="flex flex-col  gap-y-10 items-center">
-        <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[800px]">
-          <LetterAppear className="text-secondary   inline-flex">
-            An toàn hơn. Tiện lợi hơn.
-          </LetterAppear>{" "}
-          Tại sao bạn không thử?
+        <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[900px]">
+          <span className="text-gradient ">An toàn hơn. Tiện lợi hơn.</span> Tại
+          sao bạn không thử?
         </h2>
         <div className="back-gradient text-4xl  text-white relative w-full rounded-2xl flex text-center py-10 px-40 items-center justify-center mt-10">
           Miễn phí toàn bộ thiết bị và thi công khi lắp đặt Giải pháp kiểm soát

@@ -1,4 +1,3 @@
-import LetterAppear from "./animations/letter-appear";
 
 export default function Advantages() {
   return (
@@ -6,9 +5,9 @@ export default function Advantages() {
       <div className="flex flex-col  gap-y-10">
         <h2 className="2xl:text-7xl  text-6xl ml-40 font-bold w-2/3">
           Thay thế hoàn toàn{" "}
-          <LetterAppear className="text-secondary  inline-flex">
+          <span className="text-gradient  inline-flex">
             thẻ từ
-          </LetterAppear>
+          </span>
           trong các tòa nhà với ưu điểm vượt trội
         </h2>
         <div className="relative w-full mt-20 space-y-10">

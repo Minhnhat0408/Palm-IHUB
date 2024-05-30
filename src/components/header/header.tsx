@@ -33,10 +33,10 @@ export default function Header() {
         }}
         animate={!open ? "hidden" : "visible"}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="bg-header z-0 flex h-[60px] sm:rounded-3xl items-center justify-between px-4 font-[500] sm:px-8 2xl:h-[70px] sm:m-5 sm:my-2"
+        className="bg-header z-0 flex h-[70px] sm:rounded-3xl items-center justify-between px-4 font-[500] sm:px-8 2xl:h-[80px] sm:m-5 sm:my-2"
       >
         <svg
-          className="w-[35px] h-[55px] 2xl:w-[40px] 2xl:h-[60px] "
+          className="w-[40px] h-[60px] 2xl:w-[50px] 2xl:h-[70px] "
           viewBox="0 0 676 863"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

@@ -31,7 +31,7 @@ export default function SliderMultiple({
                               return 4;
                           }
                       },
-                spacing: 60,
+                spacing: 30,
             },
             initial: 0,
             slideChanged(slider) {

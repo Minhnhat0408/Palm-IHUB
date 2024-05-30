@@ -16,7 +16,7 @@ export default function Hero() {
         <img
           src="/Tay hero.webp"
           alt="palm"
-          className="rotate-[0deg] 2xl:w-[1300px] w-3/4 "
+          className="rotate-[0deg] w-4/5   "
         />
       </Reveal>
       <LetterFalling
@@ -44,8 +44,6 @@ export default function Hero() {
           Khám phá điều bí ẩn trong lòng bàn tay của bạn
         </Reveal>
       </div>
-
-   
     </section>
   );
 }

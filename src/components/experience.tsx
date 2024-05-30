@@ -1,4 +1,3 @@
-import LetterAppear from "./animations/letter-appear";
 import card from '/Card 13.svg'
 import card2 from '/Card 14.svg'
 
@@ -8,12 +7,14 @@ export default function Experience() {
             <div className="flex flex-col items-center gap-y-10">
                 <h2 className="2xl:text-7xl  text-6xl font-bold text-center max-w-[800px]">
                     Một trải nghiệm {" "}
-                    <LetterAppear className="text-secondary  inline-flex">
+                    <span className="text-gradient  inline-flex">
                         hoàn toàn khác biệt
-                    </LetterAppear>
+                    </span>
                 </h2>
-                <h3 className="font-bold text-4xl text-primary ">Mở khóa cuộc sống bằng lòng bàn tay</h3>
-                <div className="back-gradient  text-white relative w-full rounded-2xl mt-10">
+                <h3 className="font-semibold text-4xl  ">Mở khóa cuộc sống bằng lòng bàn tay</h3>
+                <div className="back-gradient  text-white relativ
+                
+                e w-full rounded-2xl mt-10">
                     <div className="w-full  p-20 pb-0 ">
                         <div className="space-y-10 w-1/3">
                             <h3 className="font-bold text-5xl text-white">Chỉ cần bàn tay</h3>
@@ -27,7 +28,7 @@ export default function Experience() {
                         <img src={card2} alt="palm" className="absolute floating-box-animation-delay  -top-52 left-1/2 -translate-x-1/2"/>
                         <img src={'Key-1.webp'} alt="palm" className="absolute w-[400px] floating-box-animation-y  top-0 left-1/2"/>
 
-                        <img src={'hand-exp.webp'} alt="palm"className="w-3/4" />
+                        <img src={'hand-exp.webp'} alt="palm"className="w-3/4 opacity-60    " />
 
                         
                     </div>

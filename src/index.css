@@ -5,7 +5,9 @@
 
 html {
   scroll-behavior: smooth;
+
 }
+
 
 @layer base {
   :root {
@@ -14,9 +16,9 @@ html {
        URL: https://gradient.page */
 
     /* CSS: .bg-gradient { background: var(--gradient) } */
-    --gradient: #FF7249;
+
     --background: 0 0% 95%;
-    --foreground: 243 10% 0.52%;
+    --foreground: 0 0% 8%;
 
     --muted: 243 10% 91.3%;
     --muted-foreground: 243 5% 41.3%;
@@ -30,7 +32,7 @@ html {
     --border: 243 15% 89.52%;
     --input: 243 15% 89.52%;
 
-    --primary: 305 100% 73%;
+    --primary: 297 38% 67%;
     --primary-foreground: 243 2% 91.3%;
 
     --secondary: 14 100% 64%;
@@ -87,7 +89,7 @@ html *::-webkit-scrollbar-track {
 }
 
 .text-gradient {
-  background: linear-gradient(90deg, #C88ACB, #FF8A00);
+  background: linear-gradient(90deg, #C88ACB, #FF7249);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -95,7 +97,7 @@ html *::-webkit-scrollbar-track {
 
 
 .back-gradient{
-  background: linear-gradient(90deg, #FF73F4, #FF8A00);
+  background: linear-gradient(90deg, #C88ACB, #FF7249);
 }
 
 
@@ -109,7 +111,7 @@ html *::-webkit-scrollbar-track {
 }
 
 .button-gradient {
-  background: linear-gradient(0, #FF8A00, #FF73F4);
+  background: linear-gradient(0, #FF7249, #C88ACB);
 
 
 }

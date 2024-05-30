@@ -32,9 +32,6 @@ export default function KeenSliderChildImage({
         <h1 className="mb-6 translate-y-20 text-white ssm:text-4xl text-2xl font-bold duration-500 hover:text-gradient group-hover/item:translate-y-0">
           {title}
         </h1>
-        <p className="mb-6 max-w-[450px] translate-y-20 duration-500 group-hover/item:translate-y-0">
-          {description}
-        </p>
       </div>
     </div>
   );
