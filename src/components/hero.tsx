@@ -30,7 +30,7 @@ export default function Hero() {
                     hiddenY={-50}
                     duration={1}
                     delay={1.5}
-                    className="text-gradient text-center text-xl font-bold sm:text-3xl xl:pb-3 xl:text-[42px]  2xl:text-[2.9vw] "
+                    className="text-gradient text-center text-[22px] font-bold sm:text-3xl xl:pb-3 xl:text-[42px]  2xl:text-[2.9vw] "
                 >
                     Mở khoá cuộc sống bằng bàn tay
                 </Reveal>
@@ -38,7 +38,7 @@ export default function Hero() {
                     hiddenY={50}
                     duration={1}
                     delay={1.5}
-                    className="text-center font-bold text-lg  sm:text-2xl xl:text-3xl 2xl:text-[2.3vw]   "
+                    className="text-center font-bold text-xl  sm:text-2xl xl:text-3xl 2xl:text-[2.3vw]   "
                 >
                     Khám phá điều bí ẩn trong lòng <span className="block sm:inline">bàn tay của bạn</span>
                 </Reveal>

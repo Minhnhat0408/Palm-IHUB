@@ -38,7 +38,7 @@ export default function Header() {
                <a href='/'>
                     <svg
                             
-                        className="h-[55px] cursor-pointer w-[35px] sm:h-[60px] sm:w-[40px] 2xl:h-[70px] 2xl:w-[50px] "
+                        className="h-[55px] cursor-pointer w-[35px] 2xl:h-[60px] 2xl:w-[40px] "
                         viewBox="0 0 676 863"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"

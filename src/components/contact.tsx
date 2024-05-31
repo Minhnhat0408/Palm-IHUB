@@ -7,8 +7,9 @@ export default function Contact() {
         <section className="relative px-6 py-20 sm:px-20">
             <div className="flex flex-col  items-center gap-y-10">
                 <h2 className="max-w-[900px]  text-center text-4xl  font-bold !leading-tight   sm:text-5xl lg:text-6xl 2xl:text-7xl">
-                    <span className="text-gradient ">An toàn hơn.</span>
-                    <span className="text-gradient  sm:inline"> Tiện lợi hơn.</span> Tại sao bạn không thử?
+                    <span className="text-gradient ">An toàn hơn.</span>{" "}
+                    <p className="sm:inline text-gradient">Tiện lợi hơn.</p> 
+                    <p className="">Tại sao bạn không thử? </p>
                 </h2>
                 <div className="back-gradient relative flex  w-full items-center justify-center rounded-2xl p-4 text-center  text-lg text-white sm:p-10 sm:text-2xl lg:mt-10 lg:px-20 2xl:px-40 2xl:text-4xl">
                     Miễn phí toàn bộ thiết bị và thi công khi lắp đặt Giải pháp kiểm soát an ninh bằng bàn tay cho các
@@ -17,7 +18,7 @@ export default function Contact() {
                 <div className="grid w-full grid-cols-1 gap-x-20 lg:grid-cols-2 ">
                     <div className=" hidden h-[80vh] w-full items-center justify-center overflow-hidden lg:flex">
                         <img src={hand_contact} alt="contact-1  " className=" h-[120vh] opacity-70" />
-                        <div className=" absolute space-y-3 bg-glass rounded-2xl p-10 ">
+                        <div className=" bg-glass absolute space-y-3 rounded-2xl p-10 ">
                             <h2 className="text-gradient   text-5xl  font-bold sm:text-6xl lg:text-7xl 2xl:text-8xl">
                                 Palm Now
                             </h2>

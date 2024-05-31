@@ -1,22 +1,20 @@
-
 export default function Experience() {
     return (
         <section className="relative overflow-hidden px-4 py-20 sm:px-20">
             <div className="flex flex-col items-center gap-y-4 lg:gap-y-10">
                 <h2 className="max-w-[800px] text-center  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
-                    Một trải nghiệm{' '}
-                    <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
+                    Một trải nghiệm <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
                 </h2>
-                <h3 className="text-center uppercase font-bold  sm:text-2xl text-lg whitespace-nowrap  lg:text-4xl ">
+                <h3 className="whitespace-nowrap text-center text-lg  font-bold uppercase sm:text-2xl  lg:text-4xl ">
                     Mở khóa cuộc sống bằng bàn tay
                 </h3>
                 <div className="back-gradient relative mt-10  w-full overflow-hidden rounded-2xl text-white lg:overflow-visible">
                     <div className="w-full  p-4 pb-0 sm:p-10 lg:p-20 ">
-                        <div className="w-1/2 space-y-2 lg:w-1/3 lg:space-y-10">
+                        <div className="w-1/2 space-y-1 lg:w-1/3 lg:space-y-5">
                             <h3 className="text-xl  font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                                 Chỉ cần bàn tay
                             </h3>
-                            <p className=" sm:text-xl lg:text-3xl ">
+                            <p className=" !leading-snug sm:text-xl lg:text-3xl">
                                 Để xác thực bản thân không cần nữa những thẻ từ, chìa khóa...
                             </p>
                         </div>
@@ -45,11 +43,11 @@ export default function Experience() {
                         />
                     </div>
                     <div className="flex w-full justify-end  p-4 pt-10 sm:p-10 lg:p-20">
-                        <div className="w-1/2 space-y-2 lg:w-1/3 lg:space-y-10 ">
+                        <div className="w-1/2 space-y-1 lg:w-1/3 lg:space-y-5 ">
                             <h3 className="text-xl  font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                                 Một cái vẫy nhẹ
                             </h3>
-                            <p className=" sm:text-xl lg:text-3xl">
+                            <p className=" !leading-snug sm:text-xl lg:text-3xl">
                                 Để mở ra tất cả, tiện lợi và tràn đầy cảm xúc.
                             </p>
                         </div>
