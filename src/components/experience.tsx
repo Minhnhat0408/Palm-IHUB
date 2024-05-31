@@ -7,7 +7,7 @@ export default function Experience() {
                     Một trải nghiệm{' '}
                     <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
                 </h2>
-                <h3 className="text-center uppercase font-bold  text-2xl  lg:text-4xl ">
+                <h3 className="text-center uppercase font-bold  sm:text-2xl text-lg whitespace-nowrap  lg:text-4xl ">
                     Mở khóa cuộc sống bằng bàn tay
                 </h3>
                 <div className="back-gradient relative mt-10  w-full overflow-hidden rounded-2xl text-white lg:overflow-visible">

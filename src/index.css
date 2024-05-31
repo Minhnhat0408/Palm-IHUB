@@ -103,8 +103,8 @@ html *::-webkit-scrollbar-track {
 
 .bg-glass {
   background: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.03),
-      rgba(255, 255, 255, 0.02));
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.08));
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5);

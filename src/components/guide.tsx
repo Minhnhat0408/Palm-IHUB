@@ -3,11 +3,11 @@ import Reveal from './animations/reveal';
 export default function Guide() {
     return (
         <section className="relative px-6 py-20 xl:px-40 sm:px-20">
-            <h2 className="mb-40 text-center  text-4xl font-bold  sm:text-5xl lg:text-6xl 2xl:text-7xl">
+            <h2 className="sm:mb-40 mb-20 text-center  text-4xl font-bold  sm:text-5xl lg:text-6xl 2xl:text-7xl">
                 Cách thức hoạt động
             </h2>
 
-            <div className=" space-y-40  ">
+            <div className=" sm:space-y-40 space-y-32  ">
                 <Reveal scale={0.7} className="  grid sm:grid-cols-2 gap-x-10 ">
                     <div className=" mb-10 flex flex-col justify-center  gap-y-5 md:gap-y-10">
                         <h3 className="text-3xl font-bold md:text-5xl">Bước 1: Cài đặt</h3>

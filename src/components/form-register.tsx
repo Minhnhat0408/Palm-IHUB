@@ -149,7 +149,7 @@ export default function FormRegister() {
           type="submit"
           size="lg" 
           disabled={form.formState.isSubmitting}
-          className="self-end !mt-20 flex button-gradient text-white hover:bg-secondary/80  font-bold uppercase tracking-widest "
+          className="self-end !mt-20 flex sm:w-auto w-full button-gradient text-white hover:bg-secondary/80  font-bold uppercase tracking-widest "
         >
           {"Gửi yêu cầu"}
           {form.formState.isSubmitting && (

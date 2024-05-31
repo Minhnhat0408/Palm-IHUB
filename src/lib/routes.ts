@@ -1,7 +1,7 @@
 export const routes = [
     {   
       label: 'Tổng quan',
-      href: '/',
+      href: '#hero',
     },
     {
       label: 'Công nghệ',

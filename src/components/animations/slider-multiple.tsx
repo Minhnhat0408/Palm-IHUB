@@ -38,9 +38,9 @@ export default function SliderMultiple({
                 setCurrentSlide(slider.track.details.rel);
             },
             created() {
-                if (window.innerWidth > 640) {
-                    setLoaded(true);
-                }
+                
+                setLoaded(true);
+
             },
             loop: true,
         },
@@ -56,7 +56,7 @@ export default function SliderMultiple({
                     if (mouseOver) return;
                     timeout = setTimeout(() => {
                         slider.next();
-                    }, 1000);
+                    }, 1500);
                 }
 
                 slider.on('created', () => {
@@ -84,7 +84,7 @@ export default function SliderMultiple({
                     <div ref={ref} className={cn('keen-slider ')}>
                         {children}
                     </div>
-                    {loaded && instanceRef.current && (
+                    {/* {loaded && instanceRef.current && (
                         <>
                             <Arrow
                                 left
@@ -97,6 +97,28 @@ export default function SliderMultiple({
                                 disabled={currentSlide === instanceRef.current.track.details.slides.length - 1}
                             />
                         </>
+                    )} */}
+                    {loaded  && instanceRef.current && (
+                        <div className="order-2 mt-4 flex justify-center  lg:order-none">
+                            {[...Array(instanceRef.current.track.details.slides.length).keys()].map((idx) => {
+                                return (
+                                    <button
+                                        key={idx}
+                                        onClick={() => {
+                                            instanceRef.current?.moveToIdx(idx);
+                                        }}
+                                        className={' mx-1 h-8'}
+                                    >
+                                        <div
+                                            className={
+                                                ' h-2  w-2 rounded-full bg-muted-foreground duration-500 sm:w-16' +
+                                                (currentSlide === idx ? ' button-gradient w-6' : '')
+                                            }
+                                        ></div>
+                                    </button>
+                                );
+                            })}
+                        </div>
                     )}
                 </div>
             }
