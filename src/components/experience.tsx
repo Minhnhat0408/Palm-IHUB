@@ -5,10 +5,10 @@ export default function Experience() {
             <div className="flex flex-col items-center gap-y-4 lg:gap-y-10">
                 <h2 className="max-w-[800px] text-center  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     Một trải nghiệm{' '}
-                    <span className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</span>
+                    <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
                 </h2>
-                <h3 className="text-center  text-2xl  font-semibold lg:text-4xl ">
-                    Mở khóa cuộc sống bằng lòng bàn tay
+                <h3 className="text-center uppercase font-bold  text-2xl  lg:text-4xl ">
+                    Mở khóa cuộc sống bằng bàn tay
                 </h3>
                 <div className="back-gradient relative mt-10  w-full overflow-hidden rounded-2xl text-white lg:overflow-visible">
                     <div className="w-full  p-4 pb-0 sm:p-10 lg:p-20 ">
@@ -16,7 +16,7 @@ export default function Experience() {
                             <h3 className="text-xl  font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
                                 Chỉ cần bàn tay
                             </h3>
-                            <p className=" sm:text-xl lg:text-3xl">
+                            <p className=" sm:text-xl lg:text-3xl ">
                                 Để xác thực bản thân không cần nữa những thẻ từ, chìa khóa...
                             </p>
                         </div>
@@ -47,10 +47,10 @@ export default function Experience() {
                     <div className="flex w-full justify-end  p-4 pt-10 sm:p-10 lg:p-20">
                         <div className="w-1/2 space-y-2 lg:w-1/3 lg:space-y-10 ">
                             <h3 className="text-xl  font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
-                                Một cái hẩy nhẹ
+                                Một cái vẫy nhẹ
                             </h3>
                             <p className=" sm:text-xl lg:text-3xl">
-                                Để mở ra tất cả, thật tiện lợi và tràn đầy cảm xúc.
+                                Để mở ra tất cả, tiện lợi và tràn đầy cảm xúc.
                             </p>
                         </div>
                     </div>

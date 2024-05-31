@@ -4,7 +4,7 @@ import Reveal from '@/components/animations/reveal';
 export default function Hero() {
     return (
         <section className=" relative flex h-screen flex-col items-center justify-center gap-y-2 overflow-hidden">
-            <div className="sm:move-left-to-right absolute sm:-top-20 block">
+            <div className="sm:move-left-to-right absolute sm:-top-20 block sm:scale-100 scale-[200%]">
                 <img src="/Gradient 2.webp" alt="palm" />
             </div>
             <Reveal
@@ -22,12 +22,12 @@ export default function Hero() {
             >
                 Palm ID
             </LetterFalling>
-            <div className=" z-10 flex flex-col items-center  xl:pb-36 pb-16">
+            <div className=" z-10 flex flex-col items-center 2xl:gap-y-2  gap-y-1 xl:pb-36 pb-16">
                 <Reveal
                     hiddenY={-50}
                     duration={1}
                     delay={1.5}
-                    className="text-gradient text-center xl:pb-3 sm:text-3xl text-xl font-bold xl:text-5xl  2xl:text-[2.9vw] "
+                    className="text-gradient text-center xl:pb-3 sm:text-3xl text-xl font-bold xl:text-[42px]  2xl:text-[2.9vw] "
                 >
                     Mở khoá cuộc sống bằng bàn tay
                 </Reveal>

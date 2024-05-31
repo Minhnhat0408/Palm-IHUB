@@ -1,10 +1,10 @@
 export default function Advantages() {
     return (
         <section className="relative px-6 py-20 sm:px-20">
-            <div className="flex flex-col  gap-y-10">
-                <h2 className=" text-center text-4xl font-bold   sm:text-5xl lg:text-6xl xl:ml-40 xl:w-2/3 xl:text-left 2xl:text-7xl">
-                    Thay thế hoàn toàn <span className="text-gradient  inline-flex">thẻ từ</span> trong các tòa nhà với
-                    ưu điểm vượt trội
+            <div className="flex flex-col  gap-y-10 items-center">
+                <h2 className=" text-center text-4xl font-bold  sm:text-5xl lg:text-6xl  xl:w-2/3  2xl:text-7xl">
+                    Thay thế hoàn toàn <span className="text-gradient  inline">thẻ từ</span> trong các tòa nhà với {" "}
+                    <span className="text-gradient  inline">ưu điểm vượt trội</span>
                 </h2>
                 <div className="relative grid w-full grid-cols-1 gap-10 md:mt-20 md:grid-cols-2">
                     <div className="flex   flex-col gap-y-6 rounded-2xl bg-white p-10  ">

@@ -1,4 +1,4 @@
-import ProgressIndicator from './progress-indicator';
+
 
 import NavBar from './navbar';
 // import MobileSidebar from "../mobile-sidebar";
@@ -23,7 +23,7 @@ export default function Header() {
     });
     return (
         <header className="fixed z-20 w-full">
-            <ProgressIndicator />
+            {/* <ProgressIndicator /> */}
             {/* <HeaderUI lang={lang} navigation={navigation} /> */}
 
             <motion.div
@@ -57,18 +57,7 @@ export default function Header() {
                                 ' rounded-xl px-6 text-lg   font-bold  capitalize  tracking-widest text-white duration-700',
                             )}
                         >
-                            {/* <span className="relative mr-3 flex h-2 w-2">
-                <span
-                  className={cn(
-                    "absolute -left-[2px] -top-[2px] h-3 w-3 animate-ping rounded-full bg-gradient opacity-75"
-                  )}
-                ></span>
-                <span
-                  className={cn(
-                    "relative inline-flex h-2 w-2 rounded-full bg-gradient"
-                  )}
-                ></span>
-              </span> */}
+                            
                             Liên hệ
                         </Button>
                     </a>
