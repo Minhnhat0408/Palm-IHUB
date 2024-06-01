@@ -8,35 +8,35 @@ export default function Customer() {
     const ref = useRef(null);
 
     useOnClickOutside(ref, () => {
-        setOpenImage(null);
+        setOpenImage(null); 
     });
     return (
         <section className="relative sm:px-20 px-6 py-20">
             <div className="flex flex-col  gap-y-10">
-                <h2 className="text-4xl font-bold  text-center sm:text-5xl lg:text-6xl  xl:ml-40 xl:w-1/2 xl:text-left 2xl:text-7xl">
+                <h2 className="text-4xl font-bold !leading-tight  text-center sm:text-5xl lg:text-6xl  xl:ml-40 xl:w-1/2 xl:text-left 2xl:text-7xl">
                     Các dự án tiêu biểu đã triển khai
                 </h2>
 
                 <div className="mt-10 flex w-full justify-center ">
                     <SliderMultiple className="  ">
                         <KeenSliderChildImage
-                            src="CMC duy tan.webp"
+                            src="cmc.webp"
                             setImage={setOpenImage}
                             className="overflow-hidden rounded-xl"
-                            title="Tòa nhà CMC Tower"
+                            title="Tòa CMC Duy Tân"
                         />
 
                         <KeenSliderChildImage
-                            src="D12 giang vo.webp"
+                            src="d12.webp"
                             setImage={setOpenImage}
                             className="overflow-hidden rounded-xl"
-                            title="D12 Showtime Giảng Võ"
+                            title="Tòa Showtime D12 Giảng Võ"
                         />
                         <KeenSliderChildImage
-                            src="Delco.webp"
+                            src="delco.webp"
                             setImage={setOpenImage}
                             className="overflow-hidden rounded-xl"
-                            title="Công Ty Đầu Tư Xây Dựng Delco"
+                            title="Nhà máy Delco Bắc Ninh"
                         />
                         <KeenSliderChildImage
                             src="UBNDTX.webp"

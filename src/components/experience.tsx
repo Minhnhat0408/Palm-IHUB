@@ -2,7 +2,7 @@ export default function Experience() {
     return (
         <section className="relative overflow-hidden px-4 py-20 sm:px-20">
             <div className="flex flex-col items-center gap-y-4 lg:gap-y-10">
-                <h2 className="max-w-[800px] text-center  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
+                <h2 className="max-w-[800px] text-center !leading-[1.1]  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     Một trải nghiệm <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
                 </h2>
                 <h3 className="whitespace-nowrap text-center text-lg  font-bold uppercase sm:text-2xl  lg:text-4xl ">
@@ -48,7 +48,7 @@ export default function Experience() {
                                 Một cái vẫy nhẹ
                             </h3>
                             <p className=" !leading-snug sm:text-xl lg:text-3xl">
-                                Để mở ra tất cả, tiện lợi và tràn đầy cảm xúc.
+                                Để mở ra tất cả, thật tiện lợi và tràn đầy cảm xúc.
                             </p>
                         </div>
                     </div>

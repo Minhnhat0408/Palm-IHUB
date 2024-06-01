@@ -111,7 +111,7 @@ export default function SliderMultiple({
                                     >
                                         <div
                                             className={
-                                                ' h-2  w-2 rounded-full bg-muted-foreground duration-500 sm:w-16' +
+                                                ' h-2  w-2 rounded-full bg-muted-foreground duration-500 ' +
                                                 (currentSlide === idx ? ' button-gradient w-6' : '')
                                             }
                                         ></div>

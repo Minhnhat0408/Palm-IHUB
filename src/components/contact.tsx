@@ -7,13 +7,19 @@ export default function Contact() {
         <section className="relative px-6 py-20 sm:px-20">
             <div className="flex flex-col  items-center gap-y-10">
                 <h2 className="max-w-[900px]  text-center text-4xl  font-bold !leading-tight   sm:text-5xl lg:text-6xl 2xl:text-7xl">
-                    <span className="text-gradient ">An toàn hơn.</span>{" "}
-                    <p className="sm:inline text-gradient">Tiện lợi hơn.</p> 
+                    <span className="text-gradient ">An toàn hơn.</span>{' '}
+                    <p className="text-gradient sm:inline">Tiện lợi hơn.</p>
                     <p className="">Tại sao bạn không thử? </p>
                 </h2>
-                <div className="back-gradient relative flex  w-full items-center justify-center rounded-2xl p-4 text-center  text-lg text-white sm:p-10 sm:text-2xl lg:mt-10 lg:px-20 2xl:px-40 2xl:text-4xl">
-                    Miễn phí toàn bộ thiết bị và thi công khi lắp đặt Giải pháp kiểm soát an ninh bằng bàn tay cho các
-                    chung cư tại Hà Nội trong tháng 06/2024.
+                <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-20 2xl:px-40 ">
+                    <p className="mb-2 text-lg font-bold  uppercase sm:text-2xl 2xl:text-4xl">
+                        Chương trình đặc biệt: SỬ DỤNG TRƯỚC, TRẢ TIỀN SAU{' '}
+                    </p>
+                    {/* <p className="mb-2 font-bold 2xl:text-2xl "> </p> */}
+                    <p className="italic 2xl:text-2xl sm:text-xl ">
+                        Lắp đặt trước toàn bộ thiết bị để cư dân trải nghiệm miễn phí trong 03 tháng. Sau đó mới quyết
+                        định có thanh toán hay không. (Áp dụng cho 05 chung cư đăng ký sớm nhất trong tháng 6/2024)
+                    </p>
                 </div>
                 <div className="grid w-full grid-cols-1 gap-x-20 lg:grid-cols-2 ">
                     <div className=" hidden h-[80vh] w-full items-center justify-center overflow-hidden lg:flex">
@@ -22,13 +28,13 @@ export default function Contact() {
                             <h2 className="text-gradient   text-5xl  font-bold sm:text-6xl lg:text-7xl 2xl:text-8xl">
                                 Palm Now
                             </h2>
-                            <p className="   whitespace-nowrap  text-3xl font-bold ">Hotline: 0979 128 351</p>
-                            <p className="   whitespace-nowrap  text-3xl font-bold ">Email: longnh@i-hub.vn</p>
+                            <p className="    text-2xl font-bold !leading-tight ">Hotline: 0979 128 351</p>
+                            <p className="    text-2xl  font-bold !leading-tight ">Email: longnh@i-hub.vn</p>
                         </div>
                     </div>
 
                     <div className="rounded-2xl bg-white  p-8 px-6 sm:p-20 " id={'contact'}>
-                        <h2 className="text-4xl font-bold text-secondary">Liên hệ với chúng tôi</h2>
+                        <h2 className="text-4xl font-bold text-secondary">Liên hệ ngay với chúng tôi</h2>
                         <FormRegister />
                     </div>
                 </div>

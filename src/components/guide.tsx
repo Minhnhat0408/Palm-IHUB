@@ -12,11 +12,11 @@ export default function Guide() {
                     <div className=" mb-10 flex flex-col justify-center  gap-y-5 md:gap-y-10">
                         <h3 className="text-3xl font-bold md:text-5xl">Bước 1: Cài đặt</h3>
                         <p className="text-xl md:text-3xl">
-                            Đặt thiết bị quét Palm ID tại cửa ra vào, thang máy, bãi gửi xe…
+                            Lắp đặt thiết bị quét Palm ID tại cửa ra vào, thang máy, bãi gửi xe…
                         </p>
                     </div>
                     <div className="flex items-center justify-center">
-                        <img src={'/image 3.webp'} alt="gym" className="w-full rounded-2xl  lg:w-3/4 xl:w-2/3" />
+                        <img src={'/image 3.webp'} alt="gym" className="w-full rounded-2xl object-cover aspect-square lg:w-3/4 xl:w-2/3" />
                     </div>
                 </Reveal>
                 <Reveal scale={0.7} className="  grid sm:grid-cols-2 gap-x-10 ">

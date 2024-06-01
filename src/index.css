@@ -96,7 +96,7 @@ html *::-webkit-scrollbar-track {
 }
 
 
-.back-gradient{
+.back-gradient {
   background: linear-gradient(90deg, #C88ACB, #FF7249);
 }
 
@@ -108,6 +108,12 @@ html *::-webkit-scrollbar-track {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bg-feature {
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0) 30%,
+      transparent);
 }
 
 .button-gradient {
@@ -136,7 +142,7 @@ html *::-webkit-scrollbar-track {
 }
 
 
- 
+
 .floating-box-animation {
 
   animation: floatAnimation 3s infinite;
@@ -147,15 +153,18 @@ html *::-webkit-scrollbar-track {
   animation: floatAnimation 3s infinite;
   animation-delay: 1.5s;
 }
+
 @keyframes floatAnimation {
   0% {
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
   }
+
   50% {
-    transform: translate(-50%,-40px);
+    transform: translate(-50%, -40px);
   }
+
   100% {
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
   }
 }
 
@@ -166,15 +175,18 @@ html *::-webkit-scrollbar-track {
   animation-delay: 1.5s;
 
 }
+
 @keyframes floatAnimationY {
   0% {
     transform: translateY(0);
     rotate: 0;
   }
+
   50% {
     transform: translateY(-40px);
-    rotate:10deg;
+    rotate: 10deg;
   }
+
   100% {
     transform: translateY(0);
     rotate: 0;
