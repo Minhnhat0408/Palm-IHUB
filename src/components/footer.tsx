@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="z-50 bg-black text-white">
             {/* mt-20 mb-5 sm:my-10  */}
             <div className="container grid grid-cols-1 gap-y-10 py-10 pb-20  sm:grid-cols-2 md:grid-cols-4">
-                <div className="flex w-full flex-col items-center justify-center text-center sm:col-span-2 sm:items-start sm:text-start">
+                <div className="flex w-full flex-col  items-start justify-center  text-start sm:col-span-2">
                     {/* <h3 className="font-bold text-xl mt-4 ">Hub Global</h3> */}
                     <h2 className=" my-4 text-4xl font-bold uppercase">Ctcp dữ liệu số IHUB</h2>
                 </div>

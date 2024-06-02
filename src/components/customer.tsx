@@ -8,12 +8,12 @@ export default function Customer() {
     const ref = useRef(null);
 
     useOnClickOutside(ref, () => {
-        setOpenImage(null); 
+        setOpenImage(null);
     });
     return (
-        <section className="relative sm:px-20 px-6 py-20">
+        <section className="relative px-6 py-20 sm:px-20">
             <div className="flex flex-col  gap-y-10">
-                <h2 className="text-4xl font-bold !leading-tight  text-center sm:text-5xl lg:text-6xl  xl:ml-40 xl:w-1/2 xl:text-left 2xl:text-7xl">
+                <h2 className="text-center text-4xl font-bold  !leading-tight sm:text-5xl lg:text-6xl  xl:ml-40 xl:w-1/2 xl:text-left 2xl:text-7xl">
                     Các dự án tiêu biểu đã triển khai
                 </h2>
 
@@ -30,7 +30,7 @@ export default function Customer() {
                             src="d12.webp"
                             setImage={setOpenImage}
                             className="overflow-hidden rounded-xl"
-                            title="Tòa Showtime D12 Giảng Võ"
+                            title="Tòa Showtime Giảng Võ"
                         />
                         <KeenSliderChildImage
                             src="delco.webp"
@@ -50,12 +50,7 @@ export default function Customer() {
                             className="overflow-hidden rounded-xl"
                             title="UBND TP Hà Nội"
                         />
-                        <KeenSliderChildImage
-                            src="SouthAsiaBank.webp"
-                            setImage={setOpenImage}
-                            className="overflow-hidden rounded-xl"
-                            title="Ngân hàng Nam Á"
-                        />
+                   
                     </SliderMultiple>
                 </div>
                 {openImage && (

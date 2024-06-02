@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section
             id="hero"
-            className=" relative flex h-screen flex-col items-center justify-center gap-y-2 overflow-hidden"
+            className=" relative flex h-screen flex-col items-center justify-center  overflow-hidden"
         >
             <div className="sm:move-left-to-right absolute block scale-[200%] sm:-top-20 sm:scale-100">
                 <img src="/Gradient 2.webp" alt="palm" />
@@ -21,16 +21,16 @@ export default function Hero() {
             <LetterFalling
                 initialDelay={300}
                 hero
-                className="  z-10 text-[86px] font-bold leading-tight sm:text-8xl md:text-9xl xl:text-[180px] 2xl:text-[12vw] "
+                className="  z-10 text-[86px] font-bold leading-[1] sm:text-8xl md:text-9xl xl:text-[180px] 2xl:text-[12vw] "
             >
                 Palm ID
             </LetterFalling>
-            <div className=" z-10 flex flex-col items-center gap-y-1  pb-16 xl:pb-36 2xl:gap-y-2">
+            <div className=" z-10 flex flex-col items-center   pb-16 xl:pb-36 ">
                 <Reveal
                     hiddenY={-50}
                     duration={1}
                     delay={1.5}
-                    className="text-gradient text-center text-[22px] font-bold sm:text-3xl xl:pb-3 xl:text-[42px]  2xl:text-[2.9vw] "
+                    className="text-gradient text-center text-[22px] pb-2 font-bold sm:text-2xl md:text-3xl xl:pb-3 xl:text-[42px]  2xl:text-[2.9vw] "
                 >
                     Mở khoá cuộc sống bằng bàn tay
                 </Reveal>
@@ -38,7 +38,7 @@ export default function Hero() {
                     hiddenY={50}
                     duration={1}
                     delay={1.5}
-                    className="text-center font-bold text-xl  sm:text-2xl xl:text-3xl 2xl:text-[2.3vw]   "
+                    className="text-center font-bold text-xl  mt-1 md:mt-3 xl:mt-5  sm:text-2xl xl:text-3xl 2xl:text-[2.3vw]   "
                 >
                     Khám phá điều bí ẩn trong lòng <span className="block sm:inline">bàn tay của bạn</span>
                 </Reveal>
