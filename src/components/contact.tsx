@@ -4,19 +4,21 @@ import hand_contact from '/hand contact.svg';
 
 export default function Contact() {
     return (
-        <section className="relative px-6 py-20 sm:px-20">
+        <section className="relative px-4 py-20 sm:px-20">
             <div className="flex flex-col  items-center gap-y-10">
                 <h2 className="max-w-[900px]  text-center text-4xl  font-bold !leading-tight   sm:text-5xl lg:text-6xl 2xl:text-7xl">
                     <span className="text-gradient ">An toàn hơn.</span>{' '}
                     <p className="text-gradient sm:inline">Tiện lợi hơn.</p>
                     <p className="">Tại sao bạn không thử? </p>
                 </h2>
-                <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-20 2xl:px-40 ">
-                    <p className="mb-2   text-lg  font-bold uppercase  sm:text-2xl 2xl:text-3xl">
+                <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-20 xl:px-40 ">
+                    <p className="mb-2   text-lg  font-bold uppercase  sm:text-[28px] leading-tight 2xl:text-3xl">
                         Chương trình đặc biệt
                     </p>
-                    <p className="mb-2 font-bold text-lg sm:text-2xl 2xl:text-4xl">SỬ DỤNG TRƯỚC, TRẢ TIỀN SAU</p>
-                    <p className="italic sm:text-xl 2xl:text-2xl ">
+                    <p className="mb-2 whitespace-nowrap !leading-normal text-xl font-bold sm:whitespace-normal sm:text-4xl ">
+                        SỬ DỤNG TRƯỚC, TRẢ TIỀN SAU
+                    </p>
+                    <p className="italic sm:text-[28px] leading-tight" >
                         Cư dân được trải nghiệm miễn phí trong 3 tháng, rồi mới quyết định thanh toán hay không (Áp dụng
                         cho 05 chung cư đăng ký sớm nhất trong tháng 6/2024)
                     </p>
