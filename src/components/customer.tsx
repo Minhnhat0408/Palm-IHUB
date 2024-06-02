@@ -33,7 +33,7 @@ export default function Customer() {
                             title="Tòa Showtime Giảng Võ"
                         />
                         <KeenSliderChildImage
-                            src="delco.webp"
+                            src="IMG_6012.webp"
                             setImage={setOpenImage}
                             className="overflow-hidden rounded-xl"
                             title="Nhà máy Delco Bắc Ninh"
