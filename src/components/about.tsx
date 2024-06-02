@@ -9,7 +9,7 @@ export default function About() {
             <div className="absolute -top-20 left-0 right-0  hidden lg:block">
                 <img src="/Gradient 2.webp" alt="palm" />
             </div>
-            <div className=" grid lg:grid-cols-2 ">
+            <div className=" grid lg:grid-cols-2 relative ">
                 <Reveal
                     hiddenX={-100}
                     className="flex flex-col justify-center space-y-8 px-4 pb-10 text-justify text-lg  sm:px-10 sm:text-2xl md:text-left xl:px-20"
