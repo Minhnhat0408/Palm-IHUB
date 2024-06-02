@@ -11,7 +11,7 @@ export default function Contact() {
                     <p className="text-gradient sm:inline">Tiện lợi hơn.</p>
                     <p className="">Tại sao bạn không thử? </p>
                 </h2>
-                <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-20 xl:px-40 ">
+                <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-24 2xl:px-40 ">
                     <p className="mb-2   text-lg  font-bold uppercase  sm:text-[28px] leading-tight 2xl:text-3xl">
                         Chương trình đặc biệt
                     </p>
