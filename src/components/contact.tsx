@@ -12,13 +12,13 @@ export default function Contact() {
                     <p className="">Tại sao bạn không thử? </p>
                 </h2>
                 <div className="back-gradient relative flex w-full  flex-col items-center justify-center rounded-2xl p-4 text-center   text-white sm:p-10 lg:mt-10 lg:px-24 2xl:px-40 ">
-                    <p className="mb-2   text-lg  font-bold uppercase  sm:text-[28px] leading-tight 2xl:text-3xl">
+                    <p className="mb-2   text-lg  font-bold uppercase  leading-tight sm:text-[28px] 2xl:text-3xl">
                         Chương trình đặc biệt
                     </p>
-                    <p className="mb-2 whitespace-nowrap !leading-normal text-xl font-bold sm:whitespace-normal sm:text-4xl ">
-                        SỬ DỤNG TRƯỚC, TRẢ TIỀN SAU
+                    <p className="mb-2 whitespace-nowrap text-[26px] font-bold uppercase !leading-normal sm:whitespace-normal sm:text-4xl lg:text-[42px] ">
+                        Dùng trước trả sau
                     </p>
-                    <p className="italic sm:text-[28px] leading-tight" >
+                    <p className="italic leading-tight sm:text-[28px]">
                         Cư dân được trải nghiệm miễn phí trong 3 tháng, rồi mới quyết định thanh toán hay không (Áp dụng
                         cho 05 chung cư đăng ký sớm nhất trong tháng 6/2024)
                     </p>

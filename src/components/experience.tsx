@@ -1,14 +1,14 @@
 export default function Experience() {
     return (
         <section className="relative overflow-hidden px-4 py-20 sm:px-20">
-            <div className="flex flex-col items-center gap-y-4 lg:gap-y-10">
-                <h2 className="max-w-[800px] text-center !leading-[1.1]  text-4xl font-bold sm:text-5xl lg:text-6xl 2xl:text-7xl">
+            <div className="flex flex-col items-center gap-y-4 lg:gap-y-6">
+                <h2 className="max-w-[800px] text-center !leading-[1.1]  text-4xl font-bold sm:text-5xl lg:text-7xl">
                     Một trải nghiệm <p className="text-gradient   inline-flex  leading-snug">hoàn toàn khác biệt</p>
                 </h2>
-                <h3 className="whitespace-nowrap text-center text-lg  font-bold uppercase sm:text-2xl  lg:text-4xl ">
+                <h3 className="whitespace-nowrap text-center text-lg font-bold uppercase sm:text-2xl  lg:text-4xl ">
                     Mở khóa cuộc sống bằng bàn tay
                 </h3>
-                <div className="back-gradient relative mt-10  w-full overflow-hidden rounded-2xl text-white lg:overflow-visible">
+                <div className="back-gradient relative mt-4 sm:mt-6 lg:mt-10  w-full overflow-hidden rounded-2xl text-white lg:overflow-visible">
                     <div className="w-full  p-4 pb-0 sm:p-10 lg:p-20 ">
                         <div className="w-1/2 space-y-1 lg:w-1/3 lg:space-y-5">
                             <h3 className="text-xl  font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
