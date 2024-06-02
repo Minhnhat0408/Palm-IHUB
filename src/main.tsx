@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/home.tsx";
-import RegisterPage from "./pages/register.tsx";
 import NotFoundPage from "./pages/not-found.tsx";
 import RootLayout from "./pages/layout.tsx";
 
@@ -21,11 +20,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
-      },
-      {
-        path: "/register",
-        element: <RegisterPage />,
-      },
+      }
     ],
   },
 ]);
