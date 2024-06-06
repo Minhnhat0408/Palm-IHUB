@@ -19,7 +19,7 @@ export default function Contact() {
                         Dùng trước trả sau
                     </p>
                     <p className="italic leading-tight sm:text-[28px]">
-                        Cư dân được trải nghiệm miễn phí trong 3 tháng, rồi mới quyết định thanh toán hay không (Áp dụng
+                        Cư dân được trải nghiệm miễn phí trong 2 tháng, rồi mới quyết định thanh toán hay không (Áp dụng
                         cho 05 chung cư đăng ký sớm nhất trong tháng 6/2024)
                     </p>
                 </div>
