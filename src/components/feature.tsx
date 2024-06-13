@@ -35,7 +35,7 @@ export default function Feature() {
                     </div>
                     <div className="group  relative cursor-pointer  overflow-hidden rounded-xl duration-500 hover:scale-105 hover:shadow-lg sm:p-3 md:hover:scale-110 md:hover:shadow-2xl lg:p-5">
                         <div className="relative">
-                            <img src="/cửa.webp" alt="gym" className=" h-[450px] rounded-xl sm:h-auto" />
+                            <img src="/IMG_5341.webp" alt="gym" className=" aspect-square object-cover h-[450px] rounded-xl sm:h-auto" />
                             <p className="bg-feature absolute bottom-0 p-4  text-white opacity-0 duration-500 sm:group-hover:opacity-100 ">
                                 Vẫy tay để tự động mở khóa cửa ra vào hoặc cửa lồng của tòa nhà
                             </p>
@@ -137,7 +137,7 @@ export default function Feature() {
                     </div>
                     <div className="group  relative cursor-pointer  overflow-hidden rounded-xl duration-500 hover:scale-105 hover:shadow-lg sm:p-3 md:hover:scale-110 md:hover:shadow-2xl lg:p-5">
                         <div className="relative">
-                            <img src="/kiosk.webp" alt="gym" className=" h-[450px] rounded-xl sm:h-auto" />
+                            <img src="/ward.webp" alt="gym" className=" h-[450px] rounded-xl sm:h-auto" />
 
                             <p className="bg-feature absolute bottom-0 p-4  text-white opacity-0 duration-500 sm:group-hover:opacity-100 ">
                                 Vẫy tay để mở khóa tủ gửi đồ cá nhân của mình
