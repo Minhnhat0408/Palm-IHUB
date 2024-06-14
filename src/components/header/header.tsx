@@ -33,7 +33,7 @@ export default function Header() {
                 }}
                 animate={!open ? 'hidden' : 'visible'}
                 transition={{ duration: 0.5, ease: 'easeInOut' }}
-                className="bg-header z-0 flex h-[60px] items-center justify-between px-4 font-[500] sm:m-5 m-2 my-2 sm:h-[70px] sm:rounded-3xl  rounded-2xl sm:px-8 2xl:h-[80px]"
+                className="bg-header z-0   flex h-[60px] items-center justify-between px-4 font-[500] sm:m-5 m-2 my-2 sm:h-[70px] sm:rounded-3xl  rounded-2xl sm:px-8 2xl:h-[80px]"
             >
                <a href='/'>
                     <svg
