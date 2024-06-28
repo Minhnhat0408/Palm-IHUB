@@ -21,7 +21,7 @@ export default function About() {
         if (window.innerWidth < 1024) {
             return {
                 scale: 0.5,
-                delay: 1.4,
+                delay: 1.3,
             };
         }
         return {
