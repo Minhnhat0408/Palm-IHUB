@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import Reveal from './animations/reveal';
 
-import hand from '/scan.svg';
 
 export default function About() {
     const isMobile = useRef(() => {
@@ -61,7 +60,7 @@ export default function About() {
                     </Reveal>
                 )}
                 <div className="absolute left-0  top-1/2 flex w-full  -translate-y-1/2  justify-center opacity-60  sm:items-center   lg:relative  lg:top-0 lg:translate-y-0">
-                    <div className="relative flex w-[40%] items-center sm:w-[30%] lg:w-[38%]  xl:w-[35%] 2xl:w-[30%] ">
+                    <div className="relative flex w-[40%] items-center sm:w-[30%] md:w-[20%] lg:w-[30%]   ">
                         <div className="aspect-square w-full opacity-65 lg:opacity-100">
                             <div className="box  aspect-square w-full bg-[#121212]"></div>
                         </div>
@@ -70,7 +69,7 @@ export default function About() {
                                 {...isMobile.current()}
                                 className="absolute -left-[60%] w-[250%] lg:-left-[80%]  lg:w-[280%] "
                             >
-                                <img src={hand} alt="about" className="  object-cover " />
+                                <img src={'/scan.webp'} alt="about" className="  object-cover " />
                             </Reveal>
                         )}
                     </div>
