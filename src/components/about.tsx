@@ -8,7 +8,7 @@ export default function About() {
             return {
                 hiddenY: 200,
                 initial: 'visible',
-                delay: 1.2,
+                delay: 0.7,
             };
         }
         return {
