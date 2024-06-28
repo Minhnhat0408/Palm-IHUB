@@ -197,3 +197,41 @@ html *::-webkit-scrollbar-track {
 html {
   scroll-behavior: smooth;
 }
+
+.box {
+  position: relative;
+  border-radius: 10px;
+}
+
+.box::before,
+.box::after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  top: -10px;
+  left: -10px;
+  border-radius: 15px;
+  background: linear-gradient(45deg,
+      #87FF9A, #2eff51, #C88ACB, #CB88C4, #FCFF78, #FCFF78, #FF7249,
+      #FF7249, #87FF9A, #2eff51, #C88ACB, #CB88C4);
+  background-size: 300%;
+  animation: border 12s linear infinite;
+}
+
+.box::after {
+  filter: blur(50px);
+}
+
+@keyframes border {
+
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 300%;
+  }
+}
