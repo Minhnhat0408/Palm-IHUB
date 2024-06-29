@@ -8,7 +8,7 @@ export default function About() {
             return {
                 hiddenY: 200,
                 initial: 'visible',
-                delay: 0.5,
+                delay: 0.7,
             };
         }
         return {
@@ -21,7 +21,7 @@ export default function About() {
         if (window.innerWidth < 1024) {
             return {
                 scale: 0.5,
-                delay: 1.3,
+                delay: 1.2,
             };
         }
         return {
