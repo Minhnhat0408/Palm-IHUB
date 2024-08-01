@@ -39,7 +39,7 @@ export default function Guide() {
                         </p>
                     </div>
                     <div className="flex items-center justify-center">
-                        <img src={'/image 10.webp'} alt="gym" className="w-full rounded-2xl lg:w-3/4 xl:w-2/3" />
+                        <img src={'/image 10.jpg'} alt="gym" className="w-full aspect-square rounded-2xl lg:w-3/4 xl:w-2/3" />
                     </div>
                 </Reveal>
 
